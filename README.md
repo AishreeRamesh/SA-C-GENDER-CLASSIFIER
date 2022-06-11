@@ -1,16 +1,16 @@
 # SA-C-GENDER-CLASSIFIER
 # Algorithm
-1.
-2.
-3.
-4.
+1. Import packages.
+2. Split the datasets into Training and Testing datasets.
+3. Define Layers.
+4. Finish Classification.
 
 ## Program:
 ```
 /*
 Program to implement 
-Developed by   :
-RegisterNumber :  
+Developed by   : Aishree Ramesh
+Register Number: 212220230003
 */
 ```
 
@@ -75,9 +75,10 @@ pd.DataFrame(history.history).plot()
 ```
 /*
 1. CODE :
-![SKILL ASSESSMENT OUTPUT](XXX.png)
+![genderclassifier](https://user-images.githubusercontent.com/70213227/173200978-8e0ab3c2-13d3-405a-9064-bf9085f99af2.jpg)
 
 2. DEMO VIDEO YOUTUBE LINK:
+https://youtu.be/5h-eXK_-ZPs
 
 */
 ```
