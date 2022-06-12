@@ -72,14 +72,11 @@ pd.DataFrame(history.history).plot()
 
 
 ## OUTPUT:
-```
-/*
+
 1. CODE :
 ![genderclassifier](https://user-images.githubusercontent.com/70213227/173200978-8e0ab3c2-13d3-405a-9064-bf9085f99af2.jpg)
 
 2. DEMO VIDEO YOUTUBE LINK:
 https://youtu.be/5h-eXK_-ZPs
 
-*/
-```
 
