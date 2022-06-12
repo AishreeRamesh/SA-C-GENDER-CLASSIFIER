@@ -1,9 +1,20 @@
 # SA-C-GENDER-CLASSIFIER
 # Algorithm
-1. Import packages.
-2. Split the datasets into Training and Testing datasets.
-3. Define Layers.
-4. Finish Classification.
+1.Import the necessary packages such as tensorflow, tensorflow hub, pandaa,matplotlib, and splitfloders.
+
+2.Create your dataset of male and female images.
+
+3.Using tensorflow.keras.preprocessing.image generate same image data for all the train and test images.
+
+4.Using tensorflow.keras.preprocessing preprocess the images into numbers for gender prediction.
+
+5.From tensorflow hub use B0 Feature vectors of EfficientNet models trained on Imagenet.
+
+6.Use fit() to train the model.
+
+7.Predict the gender of the image.
+
+8.Create a loss and accuracy graph for understanding the model learning rate.
 
 ## Program:
 ```
@@ -74,9 +85,11 @@ pd.DataFrame(history.history).plot()
 ## OUTPUT:
 
 1. CODE :
+
 ![genderclassifier](https://user-images.githubusercontent.com/70213227/173200978-8e0ab3c2-13d3-405a-9064-bf9085f99af2.jpg)
 
 2. DEMO VIDEO YOUTUBE LINK:
 https://youtu.be/5h-eXK_-ZPs
 
-
+## RESULT: 
+The B0 Efficientnet NN model has been created for gender classification and has sucessfully predicted gender of the input images.
